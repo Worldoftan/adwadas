@@ -1,0 +1,17 @@
+name: VocabAssistant
+options:
+  bundleIdPrefix: com.vocabassistant
+targets:
+  VocabAssistant:
+    type: application
+    platform: iOS
+    deploymentTarget: "16.0"
+    sources:
+      - VocabAssistant
+    info:
+      path: VocabAssistant/Info.plist
+    settings:
+      PRODUCT_BUNDLE_IDENTIFIER: com.vocabassistant.app
+      SWIFT_VERSION: "5.0"
+      TARGETED_DEVICE_FAMILY: "1,2"
+      CODE_SIGN_STYLE: Automatic

@@ -1,0 +1,12 @@
+BUILD IPA
+1. On a Mac with Xcode installed:
+   brew install xcodegen
+2. cd ios
+3. xcodegen generate
+4. Open VocabAssistant.xcodeproj in Xcode.
+5. Select your Apple developer account/team in Signing & Capabilities.
+6. Build the app for your iPhone.
+7. For sideloading, archive/export an IPA from Xcode or use your preferred sideload tool.
+
+On Arch Linux, Xcode itself is not available, so a genuine signed iOS IPA cannot be compiled locally.
+The M5Stick firmware can be built on Arch with PlatformIO.
